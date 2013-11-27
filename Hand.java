@@ -40,7 +40,7 @@ public class Hand extends JPanel {
         public int calculateScore(Card newCard, int maxScore) {
 
                 int newScore = 0;
-                List<Card> aces = new ArrayList<Card>(4);
+               aces = new Array(4);
 
                 for (int i = 0 ; i < countCards() ; i++) {
                         if (getCards()[i].getValues().length == 2) {
@@ -50,7 +50,6 @@ public class Hand extends JPanel {
                         }
                 }
 
-                for (Card ace : aces) {
                         if (newScore + ace.getValues()[1] <= 21 && newScore + ace.getValues()[1] != maxScore) {
                                 newScore += ace.getValues()[1];
                         } else {
