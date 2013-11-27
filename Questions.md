@@ -17,7 +17,7 @@
 4. What is the difference between a private and public variable? Method?
 
    Private variables can only be accessed within a specific class and public variables can be accessed from any class.
-   Private methods are similar, in the sense that they can only be referenced inside their own class. This is the reason     that in the Blackjack code, my methods were all public, although my varaibles were private.
+   Private methods are like private varaibles, in the sense that they can only be referenced inside their own class. This is the reason that in the Blackjack code, my methods were all public, although my varaibles were private.
    
 5. What is the difference between a class and an instance?
 
