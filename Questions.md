@@ -17,7 +17,7 @@
 4. What is the difference between a private and public variable? Method?
 
    Private variables can only be accessed within a specific class and public variables can be accessed from any class.
-   Private methods are like private varaibles, in the sense that they can only be referenced inside their own class. This is the reason that in the Blackjack code, my methods were all public, although my varaibles were private.
+   Private methods are like private variables, in the sense that they can only be referenced inside their own class. This is the reason that in the Blackjack code, my methods were all public, although my variables were private.
    
 5. What is the difference between a class and an instance?
 
@@ -29,7 +29,7 @@
     
 7. What is the purpose of the keyword this? What about super?
 
-    The keyword "this" implies that you are referencing the current object instance. This is beneficial in a class where      you are dealing with multiple objects. The keyword "super" function calls the default constructor of a class, meaning     that it does not require parameters all the time.
+    The keyword "this" implies that you are referencing the current object instance. This is beneficial in a class where      you are dealing with multiple objects. The "super" function calls the default constructor of a class, meaning that it does not require parameters all the time.
     
 8. What are the two properties of all objects?
   
@@ -38,18 +38,5 @@
 9. What is something about Object Oriented Design that still confuses you?
    The thing that still confuses me about Object Oriented Design is probably when you use the same method name for two
    methods in a class, but use different parameters for each method. I understand how the program interprets this, but I    don't understand how this is useful, as opposed to simply giving the two methods different names.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
