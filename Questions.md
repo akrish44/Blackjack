@@ -12,7 +12,7 @@
 
    If the entire program was created using one class, not only would the code be excessive, but it would also be difficult
    to understand. If someone were to read the code and try to understand what it means, the classes make it much easier to
-   follow. Also, separating specific parts of the program allows the programmer to locate exactly where within the code      each function is occurring.
+   follow. Also, separating specific parts of the program allows the programmer to locate exactly where within the code      each action is occurring.
   
 4. What is the difference between a private and public variable? Method?
 
